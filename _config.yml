@@ -25,6 +25,7 @@ github_username:  hzx930415
 # Build settings
 markdown: kramdown
 theme: front-cover
+
 gems:
   - jekyll-feed
 exclude:
