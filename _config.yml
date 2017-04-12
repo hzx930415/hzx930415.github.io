@@ -3,33 +3,33 @@ title: 籽祥
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: 籽祥
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: 前端 ／ 独立游戏
+url: "https://www.hanzixiang.com"
 
 # Comment
 comment:
     # disqus: leopard
-    # duoshuo: leopard 
+    # duoshuo: leopard
 
 # Social
 social:
-    # weibo: 5366874726 
+    # weibo: 5366874726
     github: hzx930415
-    # twitter: 
+    # twitter:
     # mail: leopardpan@icloud.com
 
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
+# 百度统计
+# 使用博客模板请去掉或者更换 id
 baidu:
-    id: bd20170aa139ef309a604e792cdf4485 
+    id: bd20170aa139ef309a604e792cdf4485
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-97179109-1   
-    host: auto  
+    id: UA-97179109-1
+    host: auto
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
@@ -57,14 +57,12 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
-    
+    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 关于我, description: about, url: '/about'}
+
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
-
-
