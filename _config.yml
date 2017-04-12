@@ -12,7 +12,9 @@ url: "https://www.hanzixiang.com"
 comment:
     # disqus: leopard
     # duoshuo: leopard
-
+    changyan:
+      appid: cysWxBCXL
+      appkey: 5e1f6525283a68882c4a3d15bd76704b
 # Social
 social:
     # weibo: 5366874726
