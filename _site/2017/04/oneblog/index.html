@@ -13,54 +13,56 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="我的第一篇博客">
   <meta name="twitter:description" content="正文:　　这篇文章是第一篇自己写的博客，没有什么干货。">
-  
+
   <meta property="og:type" content="article">
   <meta property="og:title" content="我的第一篇博客">
   <meta property="og:description" content="正文:　　这篇文章是第一篇自己写的博客，没有什么干货。">
-  
+
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
-  
-  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="stylesheet" href=" /css/main.css ">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="canonical" href="http://localhost:4000/2017/04/oneblog/">
-  <link rel="alternate" type="application/rss+xml" title="籽祥" href="http://localhost:4000/feed.xml">
-  
+  <link rel="alternate" type="application/rss+xml" title="籽祥" href="http://localhost:4000 /feed.xml
+    ">
+
   <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
 
-<!-- 站点统计 -->
-  <script 
-  async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-  </script>  
+  <!-- 站点统计 -->
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 
-<!-- 百度统计 -->
+  </script>
+
+  <!-- 百度统计 -->
   
   <script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?bd20170aa139ef309a604e792cdf4485";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?bd20170aa139ef309a604e792cdf4485";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
   </script>
   
 
-<!-- google 统计 -->
+  <!-- google 统计 -->
   
   <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {      
+i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
       ga('create', 'UA-97179109-1', 'auto');
       ga('send', 'pageview');
   </script>
   
 
 </head>
-
 
   <body>
 
@@ -202,7 +204,7 @@
 
 <section>
 
-            <div class="content-play">
+  <!--<div class="content-play">
               <p><a href="javascript:void(0)" onclick="dashangToggle()" class="dashang" title="打赏，支持一下">打赏一个呗</a></p>
               <div class="hide_box-play"></div>
               <div class="shang_box-play">
@@ -229,49 +231,186 @@
                   <p>打开<span id="shang_pay_txt">支付宝</span>扫一扫，即可进行扫码打赏哦</p>
                 </div>
               </div>
-            </div>
-            <script type="text/javascript">
-            function dashangToggle(){
-              $(".hide_box-play").fadeToggle();
-              $(".shang_box-play").fadeToggle();
-            }
-            </script>
+            </div>-->
+  <script type="text/javascript">
+    function dashangToggle() {
+      $(".hide_box-play").fadeToggle();
+      $(".shang_box-play").fadeToggle();
+    }
+  </script>
 
-            <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';"></div>
+  <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';"></div>
 
-            <style type="text/css">
-              .content-play{width:80%;margin-top: 20px;margin-bottom: 10px;height:40px;}
-              .hide_box-play{z-index:999;filter:alpha(opacity=50);background:#666;opacity: 0.5;-moz-opacity: 0.5;left:0;top:0;height:99%;width:100%;position:fixed;display:none;}
-              .shang_box-play{width:540px;height:540px;padding:10px;background-color:#fff;border-radius:10px;position:fixed;z-index:1000;left:50%;top:50%;margin-left:-280px;margin-top:-280px;border:1px dotted #dedede;display:none;}
-              .shang_box-play img{border:none;border-width:0;}
-              .dashang{display:block;width:100px;margin:5px auto;height:25px;line-height:25px;padding:10px;background-color:#E74851;color:#fff;text-align:center;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;transition: all 0.3s;}
-              .dashang:hover{opacity:0.8;padding:15px;font-size:18px;}
-              .shang_close-play{float:right;display:inline-block;
-                margin-right: 10px;margin-top: 20px;
-              }
-              .shang_logo{display:block;text-align:center;margin:20px auto;}
-              .shang_tit-play{width: 100%;height: 75px;text-align: center;line-height: 66px;color: #a3a3a3;font-size: 16px;background: url('/images/payimg/cy-reward-title-bg.jpg');font-family: 'Microsoft YaHei';margin-top: 7px;margin-right:2px;}
-              .shang_tit-play p{color:#a3a3a3;text-align:center;font-size:16px;}
-              .shang_payimg{width:140px;padding:10px;padding-left: 80px; /*border:6px solid #EA5F00;**/margin:0 auto;border-radius:3px;height:140px;display:inline-block;}
-              .shang_payimg img{display:inline-block;margin-right:10px;float:left;text-align:center;width:140px;height:140px; }
-              .pay_explain{text-align:center;margin:10px auto;font-size:12px;color:#545454;}
-              .shang_payselect{text-align:center;margin:0 auto;margin-top:40px;cursor:pointer;height:60px;width:500px;margin-left:110px;}
-              .shang_payselect .pay_item{display:inline-block;margin-right:140px;float:left;}
-              .shang_info-play{clear:both;}
-              .shang_info-play p,.shang_info-play a{color:#C3C3C3;text-align:center;font-size:12px;text-decoration:none;line-height:2em;}
-            </style>
+  <style type="text/css">
+    .content-play {
+      width: 80%;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      height: 40px;
+    }
+    
+    .hide_box-play {
+      z-index: 999;
+      filter: alpha(opacity=50);
+      background: #666;
+      opacity: 0.5;
+      -moz-opacity: 0.5;
+      left: 0;
+      top: 0;
+      height: 99%;
+      width: 100%;
+      position: fixed;
+      display: none;
+    }
+    
+    .shang_box-play {
+      width: 540px;
+      height: 540px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+      position: fixed;
+      z-index: 1000;
+      left: 50%;
+      top: 50%;
+      margin-left: -280px;
+      margin-top: -280px;
+      border: 1px dotted #dedede;
+      display: none;
+    }
+    
+    .shang_box-play img {
+      border: none;
+      border-width: 0;
+    }
+    
+    .dashang {
+      display: block;
+      width: 100px;
+      margin: 5px auto;
+      height: 25px;
+      line-height: 25px;
+      padding: 10px;
+      background-color: #E74851;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: all 0.3s;
+    }
+    
+    .dashang:hover {
+      opacity: 0.8;
+      padding: 15px;
+      font-size: 18px;
+    }
+    
+    .shang_close-play {
+      float: right;
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+    
+    .shang_logo {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+    }
+    
+    .shang_tit-play {
+      width: 100%;
+      height: 75px;
+      text-align: center;
+      line-height: 66px;
+      color: #a3a3a3;
+      font-size: 16px;
+      background: url('/images/payimg/cy-reward-title-bg.jpg');
+      font-family: 'Microsoft YaHei';
+      margin-top: 7px;
+      margin-right: 2px;
+    }
+    
+    .shang_tit-play p {
+      color: #a3a3a3;
+      text-align: center;
+      font-size: 16px;
+    }
+    
+    .shang_payimg {
+      width: 140px;
+      padding: 10px;
+      padding-left: 80px;
+      /*border:6px solid #EA5F00;**/
+      margin: 0 auto;
+      border-radius: 3px;
+      height: 140px;
+      display: inline-block;
+    }
+    
+    .shang_payimg img {
+      display: inline-block;
+      margin-right: 10px;
+      float: left;
+      text-align: center;
+      width: 140px;
+      height: 140px;
+    }
+    
+    .pay_explain {
+      text-align: center;
+      margin: 10px auto;
+      font-size: 12px;
+      color: #545454;
+    }
+    
+    .shang_payselect {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 40px;
+      cursor: pointer;
+      height: 60px;
+      width: 500px;
+      margin-left: 110px;
+    }
+    
+    .shang_payselect .pay_item {
+      display: inline-block;
+      margin-right: 140px;
+      float: left;
+    }
+    
+    .shang_info-play {
+      clear: both;
+    }
+    
+    .shang_info-play p,
+    .shang_info-play a {
+      color: #C3C3C3;
+      text-align: center;
+      font-size: 12px;
+      text-decoration: none;
+      line-height: 2em;
+    }
+  </style>
 
-       <ul class="pager">
-        
-        <li class="previous">
-            <a href="/2016/10/jekyll_tutorials1/" data-toggle="tooltip" data-placement="top" title="Jekyll搭建个人博客">上一篇：  <span>Jekyll搭建个人博客</span>
+  <ul class="pager">
+    
+    <li class="previous">
+      <a href="/2016/10/jekyll_tutorials1/" data-toggle="tooltip" data-placement="top"
+        title="Jekyll搭建个人博客">上一篇：  <span>Jekyll搭建个人博客</span>
             </a>
-        </li>
-        
-        
-    </ul>
+    </li>
+     
+    <li class="next">
+      <a href="/2017/04/%E5%8D%9A%E6%96%87%E4%BA%BA%E7%94%9F%E7%9B%AE%E5%BD%95/" data-toggle="tooltip" data-placement="top" title="【博文人生】目录">下一篇：  <span>【博文人生】目录</span>
+            </a>
+    </li>
+    
+  </ul>
 </section>
-
 <section class="post-comments">
 
   
