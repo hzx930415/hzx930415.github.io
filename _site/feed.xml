@@ -5,13 +5,19 @@
     <description>欢迎来到我的个人站~</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Apr 2017 05:45:23 +0800</pubDate>
-    <lastBuildDate>Thu, 13 Apr 2017 05:45:23 +0800</lastBuildDate>
+    <pubDate>Thu, 13 Apr 2017 08:17:00 +0800</pubDate>
+    <lastBuildDate>Thu, 13 Apr 2017 08:17:00 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Jekyll搭建个人博客</title>
-        <description>&lt;p&gt;　之前写了一篇&lt;a href=&quot;http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
+        <description>&lt;h2 id=&quot;说明&quot;&gt;说明：&lt;/h2&gt;
+&lt;p&gt;　　文章转载自&lt;a href=&quot;http://baixin.io/&quot;&gt;潘柏信的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;转载的内容&quot;&gt;转载的内容：&lt;/h2&gt;
+
+&lt;h2 id=&quot;正文&quot;&gt;正文：&lt;/h2&gt;
+&lt;p&gt;　　文章转载自&lt;a href=&quot;http://baixin.io/&quot;&gt;潘柏信&lt;/a&gt;的博客
+　之前写了一篇&lt;a href=&quot;http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
 
 &lt;p&gt;　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，&lt;a href=&quot;http://baixin.io/#blog&quot;&gt;博客模板效果&lt;/a&gt;。&lt;/p&gt;
 
@@ -220,7 +226,7 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 &lt;p&gt;继续报错&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Configuration file: /Users/tendcloud-Caroline/Desktop/leopardpan.github.io/_config.yml
-  Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
+  Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/!
 jekyll 3.1.1 | Error:  jekyll-sitemap
 
 &lt;/code&gt;&lt;/pre&gt;
@@ -249,7 +255,7 @@ jekyll 3.1.1 | Error:  jekyll-sitemap
             Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github
        Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
                     done in 0.901 seconds.
  Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github'
 Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
@@ -287,10 +293,9 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 &lt;h3 id=&quot;qa&quot;&gt;Q&amp;amp;A&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;问题：最近很多朋友使用我的模板报警告：The CNAME &lt;code class=&quot;highlighter-rouge&quot;&gt;baixin.io&lt;/code&gt; is already taken 
+  &lt;p&gt;问题：最近很多朋友使用我的模板报警告：The CNAME &lt;code class=&quot;highlighter-rouge&quot;&gt;baixin.io&lt;/code&gt; is already taken
 解决：把CNAME里面的baixin.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）&lt;/p&gt;
 &lt;/blockquote&gt;
-
 </description>
         <pubDate>Fri, 14 Oct 2016 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2016/10/jekyll_tutorials1/</link>
@@ -303,7 +308,12 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
     
       <item>
         <title>HEXO进阶</title>
-        <description>&lt;p&gt;HEXO接近是最近有一些朋友提出的问题，然后我做了总结，如果你也在使用HEXO，不妨看看，应该会有些帮助。&lt;/p&gt;
+        <description>&lt;h2 id=&quot;说明&quot;&gt;说明：&lt;/h2&gt;
+&lt;p&gt;　　文章转载自&lt;a href=&quot;http://baixin.io/&quot;&gt;潘柏信的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;转载的内容&quot;&gt;转载的内容：&lt;/h2&gt;
+
+&lt;h2 id=&quot;正文&quot;&gt;正文：&lt;/h2&gt;
+&lt;p&gt;HEXO接近是最近有一些朋友提出的问题，然后我做了总结，如果你也在使用HEXO，不妨看看，应该会有些帮助。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1、博客部署样式出问题了怎么办？&lt;/li&gt;
@@ -395,7 +405,10 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
     
       <item>
         <title>HEXO搭建个人博客</title>
-        <description>&lt;p&gt;　　经过各种找资料，踩过各种坑，终于使用 hexo 搭建个人博客初步完成了，域名目前用得时 github 的，我的 hexo 是 3.1.1 版本，hexo 不同的版本，很多配置都不一样。好吧，废话不多说了，开始吧。&lt;/p&gt;
+        <description>&lt;h2 id=&quot;说明&quot;&gt;说明：&lt;/h2&gt;
+&lt;p&gt;　　文章转载自&lt;a href=&quot;http://baixin.io/&quot;&gt;潘柏信的博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;转载的内容&quot;&gt;转载的内容：&lt;/h2&gt;
+&lt;p&gt;　　经过各种找资料，踩过各种坑，终于使用 hexo 搭建个人博客初步完成了，域名目前用得时 github 的，我的 hexo 是 3.1.1 版本，hexo 不同的版本，很多配置都不一样。好吧，废话不多说了，开始吧。&lt;/p&gt;
 
 &lt;p&gt;　　本篇文章累计了大量评论，和我的一些解答，读者有什么问题可以先看看评论，或者搜下关键字，如果还是有问题可以给我在评论里给我留言，问题很着急的可以加我 ＱＱ：1499065178　，或者给我发邮件：&lt;a href=&quot;mailto:leopardpan@icloud.com&quot;&gt;leopardpan@icloud.com&lt;/a&gt;  ，都可以，如果你已经搭建完成了，可以看看我的另一篇博客&lt;a href=&quot;http://baixin.io/2016/06/HEXO_Advanced/&quot;&gt;HEXO进阶&lt;/a&gt;，有讲如何能百度搜索你的博客、多台电脑使用HEXO发布博客等。我现在的博客是使用 Jekyll 搭建的，如果你想使用我现在的模板请看&lt;a href=&quot;http://baixin.io/2016/10/jekyll_tutorials1/&quot;&gt;Jekyll搭建个人博客&lt;/a&gt;&lt;/p&gt;
 
@@ -470,7 +483,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 解决方法，执行命令：$ npm install hexo-server --save
 
 提示：hexo-server@0.1.2 node_modules/hexo-server
-.... 
+....
 
 表示成功了[参考](https://hexo.io/zh-cn/docs/server.html)
 
